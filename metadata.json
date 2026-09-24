@@ -1,0 +1,7 @@
+{
+  "name": "Hotel Manipal Donne Biriyani",
+  "description": "Authentic Karnataka Naati Donne Biriyani in Manipal - Fragrant jeera samba rice, military spices, and areca-leaf donnes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
