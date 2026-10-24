@@ -79,7 +79,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
       className="relative pt-12 pb-16 md:pt-24 md:pb-28 overflow-hidden border-b border-[#211e19] select-none"
     >   
 {/* Dynamic Rotating Chef Background */}
-      <div className="absolute inset-0 flex items-center justify-end md:pl-8 lg:pl-16 pointer-events-none z-10">
+      <div className="absolute inset-0 flex items-center justify-end md:pr-8 lg:pr-16 pointer-events-none z-10">
           {(() => {
             const currentAngle = chefRotateY; 
             let frameIndex = 2; 
@@ -116,8 +116,9 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
       <div className="absolute right-8 top-1/2 -translate-y-1/2 w-[520px] h-[520px] bg-[#f3b43f]/15 rounded-full blur-[100px] pointer-events-none z-[1]" />
 
       {/* Content Container */}
-      <div className="max-w-7xl ml-auto md:w-1/2 lg:w-[55%] text-left md:text-right md:items-end flex flex-col">
-        <div className="max-w-4xl">
+       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 relative z-20">
+      {/* Text block column anchored cleanly on the left side */}
+       <div className="text-left flex flex-col items-start">
           {/* Text Block (Status Pill + H1 Heading + Description Paragraph) */}
           <div className="hero-text-block max-w-2xl mb-7">
             {/* Top Status Pill */}
