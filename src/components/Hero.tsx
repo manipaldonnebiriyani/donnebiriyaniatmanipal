@@ -68,10 +68,10 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
       className="relative pt-12 pb-16 md:pt-24 md:pb-28 overflow-hidden border-b border-[#211e1d]"
     >
       {/* Main Responsive Grid Layout Wrapper */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 grid grid-cols-1 md:grid-cols-12 gap-8 items-center w-full">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 grid grid-cols-1 sm:grid-cols-12 gap-6 md:gap-8 items-center w-full">
         
         {/* Left Column: Content */}
-        <div className="col-span-1 md:col-span-7 text-left flex flex-col items-start order-1 md:order-1">
+        <div className="col-span-1 sm:col-span-7 text-left flex flex-col items-start order-1 relative z-20">
           {/* Top Status Pill */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#1b1918] border border-[#f3b43f]/10 mb-7">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shadow-sm shadow-emerald-400/50" />
@@ -123,7 +123,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
           </div>
 
         {/* Right Column: Rotating Chef Mascot */}
-        <div className="col-span-1 md:col-span-5 flex flex-col items-center justify-center md:items-end md:justify-end order-2 md:order-2 w-full">
+        <div className="col-span-1 sm:col-span-5 flex flex-col items-center justify-center order-2 w-full mt-6 sm:mt-0">
           {(() => {
             const currentAngle = chefRotateY;
             let frameIndex = 2;
@@ -138,12 +138,12 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
               <img
                 src={CHEF_FRAMES[frameIndex]}
                 alt="Interactive Chef"
-                className="h-[35vh] sm:h-[45vh] md:h-[50vh] lg:h-[60vh] object-contain select-none pointer-events-none transition-all duration-300"
+                className="h-[30vh] sm:h-[40vh] md:h-[50vh] lg:h-[60vh] object-contain select-none pointer-events-none transition-all duration-300"
               />
             );
           })()}
           {/* Quality Seal Badge */}
-          <div className="mt-4 relative z-20 inline-flex items-center justify-center gap-1.5 px-4 py-1.5 rounded-full bg-[#f3b43f] animate-pulse w-fit mx-auto md:mr-16">
+          <div className="mt-4 relative z-20 inline-flex items-center justify-center gap-1.5 px-4 py-1.5 rounded-full bg-[#f3b43f] animate-pulse w-fit mx-auto">
             <span className="w-1.5 h-1.5 rounded-full bg-[#f3b43f] animate-pulse" />
             <span className="text-[10px] font-semibold tracking-wide text-black">
               Naati Dum Special
