@@ -79,7 +79,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
       className="relative pt-12 pb-16 md:pt-24 md:pb-28 overflow-hidden border-b border-[#211e19] select-none"
     >   
 {/* Dynamic Rotating Chef Background */}
-      <div className="absolute inset-0 flex items-center justify-end md:pr-8 lg:pr-16 pointer-events-none z-10">
+      <div className="absolute inset-0 flex items-center justify-center md:justify-end md:pr-12 lg:pr-24 pointer-events-none z-10">
           {(() => {
             const currentAngle = chefRotateY; 
             let frameIndex = 2; 
