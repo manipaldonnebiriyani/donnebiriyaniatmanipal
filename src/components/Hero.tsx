@@ -104,25 +104,23 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
             </span>
           </div>
 
-          {/* Call CTA Row */}
+        {/* Call CTA Row */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mb-8 w-full sm:w-auto">
             <a
               className="inline-flex items-center justify-center gap-2.5 px-5 sm:px-6 py-3.5 rounded-xl bg-[#f3b43f] hover:bg-[#e0a230] text-black font-semibold text-sm transition-all duration-200 shadow-lg shadow-[#f3b43f]/10 hover:shadow-[#f3b43f]/20 hover:-translate-y-0.5 active:translate-y-0 w-full sm:w-auto"
-              href={`tel:${RESTAURANT_INFO.phoneRaw}`}
+              href="tel:8296821532"
             >
               <Phone className="w-4 h-4 fill-current" />
-              <span>Call {RESTAURANT_INFO.phone}</span>
+              <span>Call 8296821532</span>
+            </a>
+            <a
+              className="inline-flex items-center justify-center gap-2.5 px-5 sm:px-6 py-3.5 rounded-xl bg-[#1b1918] hover:bg-[#262321] border border-[#f3b43f]/20 text-[#f3b43f] font-semibold text-sm transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 w-full sm:w-auto"
+              href="tel:9164181813"
+            >
+              <Phone className="w-4 h-4 fill-current" />
+              <span>Call 9164181813</span>
             </a>
           </div>
-
-          {/* Quality Seal Badge */}
-          <div className="mt-1.5 relative z-20 inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-[#f3b43f] animate-pulse">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#f3b43f] animate-pulse" />
-            <span className="text-[10px] font-semibold tracking-wide text-black">
-              Naati Dum Special
-            </span>
-          </div>
-        </div>
 
         {/* Right Column: Rotating Chef Mascot */}
         <div className="col-span-1 md:col-span-5 flex justify-center md:justify-end order-2 md:order-2 w-full">
@@ -145,7 +143,14 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
             );
           })()}
         </div>
-
+{/* Quality Seal Badge */}
+          <div className="mt-1.5 relative z-20 inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-[#f3b43f] animate-pulse">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#f3b43f] animate-pulse" />
+            <span className="text-[10px] font-semibold tracking-wide text-black">
+              Naati Dum Special
+            </span>
+          </div>
+        </div>
       </div>
 
       {/* Floating Bottom Info Bar */}
