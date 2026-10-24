@@ -65,7 +65,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
       onPointerLeave={handlePointerLeave}
       onPointerCancel={handlePointerCancel}
       style={{ touchAction: 'pan-y' }}
-      className="relative pt-12 pb-16 md:pt-24 md:pb-28 overflow-hidden border-b border-[#211e1d]"
+      className="relative pt-12 pb-10 md:pt-20 md:pb-12 overflow-hidden border-b border-[#211e1d]"
     >
       {/* Main Responsive Grid Layout Wrapper */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 grid grid-cols-1 sm:grid-cols-12 gap-6 md:gap-8 items-center w-full">
@@ -156,7 +156,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
       </div>
 
       {/* Floating Bottom Info Bar */}
-      <div className="relative z-20 mt-12 border-t border-[#38312d] bg-[#211e1d]/95 backdrop-blur-sm">
+      <div className="relative z-20 mt-4 border-t border-[#38312d] bg-[#211e1d]/95 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 py-3 text-sm">
           <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 text-sm">
             <span className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-[#1b1918] text-[#cfc7b9]">
