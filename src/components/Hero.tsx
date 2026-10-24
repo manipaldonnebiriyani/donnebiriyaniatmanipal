@@ -117,10 +117,8 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
       <div className="absolute left-10 top-1/3 w-[450px] h-[350px] bg-[#f3b43f]/10 rounded-full blur-3xl pointer-events-none z-[1]" />
       <div className="absolute right-8 top-1/2 -translate-y-1/2 w-[520px] h-[520px] bg-[#f3b43f]/15 rounded-full blur-[100px] pointer-events-none z-[1]" />
 
-      {/* Content Container */}
-       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 relative z-20">
-      {/* Text block column anchored cleanly on the left side */}
-       <div className="text-left flex flex-col items-start">
+      {/* Left Column Text Content */}
+      <div className="col-span-1 md:col-span-7 text-left flex flex-col items-start order-1 md:order-1">
           {/* Text Block (Status Pill + H1 Heading + Description Paragraph) */}
           <div className="hero-text-block max-w-2xl mb-7">
             {/* Top Status Pill */}
@@ -183,9 +181,6 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
                     Naati Dum Special
                   </span>
                 </div>
-              </div>
-            </div>
-          </div>
 
           {/* Menu Link & Slider Navigation */}
           <div className="flex flex-wrap items-center justify-between gap-4">
