@@ -79,7 +79,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
       className="relative pt-12 pb-16 md:pt-24 md:pb-28 overflow-hidden border-b border-[#211e1d]"
     >   
 {/* main responsive wrapper grid */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 grid grid-cols-1 md:grid-cols-12 gap-8 items-center w-full">
           {(() => {
             const currentAngle = chefRotateY; 
             let frameIndex = 2; 
@@ -181,7 +181,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
                     Naati Dum Special
                   </span>
                 </div>
-
+              </div>
           {/* Menu Link & Slider Navigation */}
           <div className="flex flex-wrap items-center justify-between gap-4">
             <button
