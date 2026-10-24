@@ -62,7 +62,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Authentic military-style chicken biriyani made with hand-ground mint and coriander masala.',
     badge: 'BESTSELLER · MEDIUM-HIGH',
     isVeg: false,
-    imageUrl: '/assets/food/chicken_donne_biriyani_1789898891630-BEHa-d7v.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/chicken_donne_biriyani_1789898891630-BEHa-d7v.jpg',
     searchKeywords: 'chicken donne biryani tender jeera samba rice mint coriander half full bestseller',
   },
   {
@@ -72,7 +72,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Fragrant donne biriyani rice served with succulent spiced fried chicken kebabs.',
     badge: 'CHEF SPECIAL · HIGH',
     isVeg: false,
-    imageUrl: '/assets/food/chicken_kebab_biriyani_1789899190664-D0Sartea.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/chicken_kebab_biriyani_1789899190664-D0Sartea.jpg',
     searchKeywords: 'chicken kebab biryani fragrant donne biryani rice succulent spiced fried kebabs full',
   },
   {
@@ -82,7 +82,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Spiced boiled eggs paired with hot aromatic donne biriyani rice.',
     badge: 'POPULAR · MEDIUM',
     isVeg: false,
-    imageUrl: '/assets/food/egg_donne_biriyani_1789899333085-DFBPVymi.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/egg_donne_biriyani_1789899333085-DFBPVymi.jpg',
     searchKeywords: 'egg donne biryani spiced boiled eggs aromatic biryani rice full popular',
   },
   {
@@ -93,7 +93,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Aromatic donne dum rice infused with herbs and native spices (comfort classic).',
     badge: 'COMFORT CLASSIC · MEDIUM',
     isVeg: true,
-    imageUrl: '/assets/food/kuska_donne_rice_1789899463434-DaWYfAZ_.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/kuska_donne_rice_1789899463434-DaWYfAZ_.jpg',
     searchKeywords: 'kuska rice biryani rice aromatic donne dum rice veg vegetarian herbs native spices half full',
   },
   {
@@ -103,7 +103,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Crispy chicken chunks marinated with ginger, garlic, crushed chilli, and curry leaves.',
     badge: 'MUST TRY · HIGH',
     isVeg: false,
-    imageUrl: '/assets/food/chicken_kebab_military_1789899672048-D8LhsSs_.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/chicken_kebab_military_1789899672048-D8LhsSs_.jpg',
     searchKeywords: 'chicken kebab crispy chunks ginger garlic crushed chilli curry leaves half full',
   },
   {
@@ -113,7 +113,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Pan-roasted chicken tossed with freshly cracked black pepper and curry leaves.',
     badge: 'SPICY HIT · VERY HIGH',
     isVeg: false,
-    imageUrl: '/assets/food/chicken_pepper_dry_1789899778957-BoV9Mnwe.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/chicken_pepper_dry_1789899778957-BoV9Mnwe.jpg',
     searchKeywords: 'chicken pepper dry pan-roasted malnad black pepper curry leaves half full spicy',
   },
   {
@@ -123,7 +123,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Signature spicy crispy fried kebab tossed with crushed pepper and native herbs.',
     badge: 'SIGNATURE SPECIAL · HIGH',
     isVeg: false,
-    imageUrl: '/assets/food/kshatriya_pepper_kebab_1789899686448-Bp9r1twp.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/kshatriya_pepper_kebab_1789899686448-Bp9r1twp.jpg',
     searchKeywords: 'kshatriya pepper kebab signature spicy crispy fried kebab native herbs full',
   },
   {
@@ -133,7 +133,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Rich, slow-simmered tender mutton coated in thick rustic masala paste.',
     badge: 'NAATI FEAST · HIGH',
     isVeg: false,
-    imageUrl: '/assets/food/mutton_chops_curry_1789899884591-NzM5VWHi.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/mutton_chops_curry_1789899884591-NzM5VWHi.jpg',
     searchKeywords: 'mutton chops mutton masala rich slow-simmered tender mutton thick rustic masala paste half full gravy',
   },
   {
@@ -143,7 +143,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Slow-cooked country chicken curry in rich roasted onion and tomato gravy.',
     badge: 'RICH & HEARTY · HIGH',
     isVeg: false,
-    imageUrl: '/assets/food/chicken_masala_curry_1789900053454-CryYoe0i.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/chicken_masala_curry_1789900053454-CryYoe0i.jpg',
     searchKeywords: 'chicken masala slow-cooked country chicken curry rich roasted onion tomato gravy half full curry',
   },
   {
@@ -153,7 +153,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Fresh handmade whole-wheat flatbreads cooked soft without excess oil.',
     badge: 'HOMESTYLE · MILD',
     isVeg: true,
-    imageUrl: '/assets/food/chapathi_homestyle_1789900269639-DBLJKsj0.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/chapathi_homestyle_1789900269639-DBLJKsj0.jpg',
     searchKeywords: 'chapathi 2 pieces handmade whole-wheat flatbreads soft veg roti bread',
   },
   {
@@ -163,7 +163,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Golden, layered griddled parotta that tears into buttery-soft flakes.',
     badge: 'FLAKY LAYERED · MILD',
     isVeg: true,
-    imageUrl: '/assets/food/flaky_layered_parotta_1789900765761-BnPSH71I.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/flaky_layered_parotta_1789900765761-BnPSH71I.jpg',
     searchKeywords: 'kerala parotta 2 pieces golden layered griddled parotta flaky veg bread',
   },
 ];
@@ -174,11 +174,11 @@ export const HERO_SLIDES = [
     label: 'Naati Donne Biriyani & Kebabs',
   },
   {
-    url: '/assets/food/donne_biriyani_circle_1789753879982-JSOANyiD.jpg',
+    url: '/donnebiriyaniatmanipal/assets/food/donne_biriyani_circle_1789753879982-JSOANyiD.jpg',
     label: 'Authentic 6-Variety Feast Platter',
   },
   {
-    url: '/assets/food/donne_biriyani_table_1789753808731-CJQ--nDh.jpg',
+    url: '/donnebiriyaniatmanipal/assets/food/donne_biriyani_table_1789753808731-CJQ--nDh.jpg',
     label: 'Jeera Samba Dum Donne Biriyani',
   },
 ];
