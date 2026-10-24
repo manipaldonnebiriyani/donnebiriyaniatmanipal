@@ -152,7 +152,6 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
         </div>
       </div>
      </div>
-    </div>
 
       {/* Floating Bottom Info Bar */}
       <div className="relative z-20 mt-12 border-t border-[#38312d] bg-[#211e1d]/95 backdrop-blur-sm">
