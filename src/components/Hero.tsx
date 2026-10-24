@@ -76,10 +76,10 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
       onPointerLeave={handlePointerLeave}
       onPointerCancel={handlePointerCancel}
       style={{ touchAction: 'pan-y' }}
-      className="relative pt-12 pb-16 md:pt-24 md:pb-28 overflow-hidden border-b border-[#211e19] select-none"
+      className="relative pt-12 pb-16 md:pt-24 md:pb-28 overflow-hidden border-b border-[#211e1d]"
     >   
-{/* Dynamic Rotating Chef Background */}
-      <div className="absolute inset-0 flex items-center justify-center md:justify-end md:pr-12 lg:pr-24 pointer-events-none z-10">
+{/* main responsive wrapper grid */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-20 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
           {(() => {
             const currentAngle = chefRotateY; 
             let frameIndex = 2; 
@@ -100,11 +100,13 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
               const shiftAmount = isMobileOrTablet ? (window.innerWidth < 640 ? '80px' : '160px') : '0px';
               
             return (
+              <div className="col-span-1 md:col-span-5 flex justify-center md:justify-end order-2 md:order-2">
               <img 
                 src={CHEF_FRAMES[frameIndex]} 
-                alt="Interactive Rotating Chef" 
-                className="h-[65vh] md:h-[80vh] object-contain select-none pointer-events-none translate-x-[24%] sm:translate-x-[36%] md:translate-x-0 transition-transform duration-200"
+                alt="Interactive Chef" 
+                className="h-[35vh] sm:h-[45vh] md:h-[50vh] lg:h-[60vh] object-contain select-none pointer-events-none transition-all duration-300"
               />
+              </div>
             );
           })()}
         </div>         
