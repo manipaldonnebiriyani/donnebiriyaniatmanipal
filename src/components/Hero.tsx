@@ -2,11 +2,11 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Phone, ArrowRight, Star, Clock } from 'lucide-react';
 import { RESTAURANT_INFO } from '../data/menuData.ts';
 const CHEF_FRAMES = [
-  "/assets/Frame 1 Left Profile — 0°.png",
-  "/assets/Frame 2 3:4 Left — 45°.png",
-  "/assets/Frame 3 Front — 90°.png",
-  "/assets/Frame 4 3:4 Right — 135°.png",
-  "/assets/Frame 5 Right Profile — 180° 2.png"
+  "/donnebiriyaniatmanipal/assets/Frame 1 Left Profile — 0°.png",
+  "/donnebiriyaniatmanipal/assets/Frame 2 3:4 Left — 45°.png",
+  "/donnebiriyaniatmanipal/assets/Frame 3 Front — 90°.png",
+  "/donnebiriyaniatmanipal/assets/Frame 4 3:4 Right — 135°.png",
+  "/donnebiriyaniatmanipal/assets/Frame 5 Right Profile — 180° 2.png"
 ];
 interface HeroProps {
   onExploreMenu: () => void;
