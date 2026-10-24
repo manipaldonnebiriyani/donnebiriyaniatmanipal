@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { Phone, Star, Clock } from 'lucide-react';
 
 const RESTAURANT_INFO = {
-  phone: "9164181813",
-  phoneRaw: "9164181813",
+  phone: "8296821532",
+  phoneRaw: "8296821532",
   phone2Raw: "9164181813",
   rating: "4.8",
   pricingNote: "Affordable & Quality Food"
@@ -104,23 +104,24 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
             </span>
           </div>
 
-        {/* Call CTA Row */}
+          {/* Call CTA Row */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 mb-8 w-full sm:w-auto">
             <a
               className="inline-flex items-center justify-center gap-2.5 px-5 sm:px-6 py-3.5 rounded-xl bg-[#f3b43f] hover:bg-[#e0a230] text-black font-semibold text-sm transition-all duration-200 shadow-lg shadow-[#f3b43f]/10 hover:shadow-[#f3b43f]/20 hover:-translate-y-0.5 active:translate-y-0 w-full sm:w-auto"
-              href="tel:8296821532"
+              href={`tel:${RESTAURANT_INFO.phoneRaw}`}
             >
               <Phone className="w-4 h-4 fill-current" />
               <span>Call 8296821532</span>
             </a>
             <a
               className="inline-flex items-center justify-center gap-2.5 px-5 sm:px-6 py-3.5 rounded-xl bg-[#1b1918] hover:bg-[#262321] border border-[#f3b43f]/20 text-[#f3b43f] font-semibold text-sm transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 w-full sm:w-auto"
-              href="tel:9164181813"
+              href={`tel:${RESTAURANT_INFO.phone2Raw}`}
             >
               <Phone className="w-4 h-4 fill-current" />
               <span>Call 9164181813</span>
             </a>
           </div>
+        </div>
 
         {/* Right Column: Rotating Chef Mascot */}
         <div className="col-span-1 sm:col-span-5 flex flex-col items-center justify-center order-2 w-full mt-6 sm:mt-0">
@@ -142,16 +143,17 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
               />
             );
           })()}
-          {/* Quality Seal Badge */}
+
+          {/* Quality Seal Badge Under Chef Feet */}
           <div className="mt-4 relative z-20 inline-flex items-center justify-center gap-1.5 px-4 py-1.5 rounded-full bg-[#f3b43f] animate-pulse w-fit mx-auto">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#f3b43f] animate-pulse" />
-            <span className="text-[10px] font-semibold tracking-wide text-black">
+            <span className="w-1.5 h-1.5 rounded-full bg-black" />
+            <span className="text-xs font-bold tracking-wide text-black">
               Naati Dum Special
             </span>
           </div>
         </div>
+
       </div>
-     </div>
 
       {/* Floating Bottom Info Bar */}
       <div className="relative z-20 mt-12 border-t border-[#38312d] bg-[#211e1d]/95 backdrop-blur-sm">
