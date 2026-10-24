@@ -123,7 +123,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
           </div>
 
         {/* Right Column: Rotating Chef Mascot */}
-        <div className="col-span-1 md:col-span-5 flex justify-center md:justify-end order-2 md:order-2 w-full">
+        <div className="col-span-1 md:col-span-5 flex flex-col items-center justify-center md:items-end md:justify-end order-2 md:order-2 w-full">
           {(() => {
             const currentAngle = chefRotateY;
             let frameIndex = 2;
@@ -143,7 +143,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
             );
           })()}
           {/* Quality Seal Badge */}
-          <div className="mt-4 relative z-20 inline-flex items-center gap-1 px-3 py-1.5 rounded-full bg-[#f3b43f] animate-pulse">
+          <div className="mt-4 relative z-20 inline-flex items-center justify-center gap-1.5 px-4 py-1.5 rounded-full bg-[#f3b43f] animate-pulse w-fit mx-auto md:mr-16">
             <span className="w-1.5 h-1.5 rounded-full bg-[#f3b43f] animate-pulse" />
             <span className="text-[10px] font-semibold tracking-wide text-black">
               Naati Dum Special
