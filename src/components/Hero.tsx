@@ -181,7 +181,29 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
                     Naati Dum Special
                   </span>
                 </div>
-              </div>
+              {/* Right Column: Dynamic Rotating Chef Mascot */}
+        <div className="col-span-1 md:col-span-5 flex justify-center md:justify-end order-2 md:order-2">
+          {(() => {
+            const currentAngle = chefRotateY;
+            let frameIndex = 2;
+
+            if (currentAngle <= -20) frameIndex = 0;
+            else if (currentAngle > -20 && currentAngle <= -6) frameIndex = 1;
+            else if (currentAngle > -6 && currentAngle < 6) frameIndex = 2;
+            else if (currentAngle >= 6 && currentAngle < 20) frameIndex = 3;
+            else if (currentAngle >= 20) frameIndex = 4;
+
+            return (
+              <img
+                src={CHEF_FRAMES[frameIndex]}
+                alt="Interactive Chef"
+                className="h-[35vh] sm:h-[45vh] md:h-[50vh] lg:h-[60vh] object-contain select-none pointer-events-none transition-all duration-300"
+              />
+            );
+          })()}
+        </div>
+
+      </div> {/* Closes Main Responsive Grid Layout Wrapper */}
           {/* Menu Link & Slider Navigation */}
           <div className="flex flex-wrap items-center justify-between gap-4">
             <button
