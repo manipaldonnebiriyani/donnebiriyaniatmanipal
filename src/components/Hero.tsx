@@ -116,7 +116,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
       <div className="absolute right-8 top-1/2 -translate-y-1/2 w-[520px] h-[520px] bg-[#f3b43f]/15 rounded-full blur-[100px] pointer-events-none z-[1]" />
 
       {/* Content Container */}
-      <div className="max-w-7xl ml-auto md:w-1/2 lg:w-[55%]">
+      <div className="max-w-7xl ml-auto md:w-1/2 lg:w-[55%] text-left md:text-right md:items-end flex flex-col">
         <div className="max-w-4xl">
           {/* Text Block (Status Pill + H1 Heading + Description Paragraph) */}
           <div className="hero-text-block max-w-2xl mb-7">
