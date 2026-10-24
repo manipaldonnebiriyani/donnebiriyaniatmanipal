@@ -234,8 +234,6 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
           <div className="inline-flex items-center px-3.5 py-1.5 rounded-lg bg-[#241e15] border border-[#443722] font-bold tracking-wider text-[#f3b43f] uppercase text-xs shadow-sm self-start sm:self-auto">
             {RESTAURANT_INFO.pricingNote}
           </div>
-        </div>
-      </div>
     </section>
   );
 };
