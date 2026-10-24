@@ -52,7 +52,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Tender juicy mutton slow-cooked with jeera samba rice and military spices.',
     badge: 'CHEF SPECIAL · HIGH',
     isVeg: false,
-    imageUrl: '/assets/food/mutton_donne_biriyani_1789898545816-BHUuOluv.jpg',
+    imageUrl: '/donnebiriyaniatmanipal/assets/food/mutton_donne_biriyani_1789898545816-BHUuOluv.jpg',
     searchKeywords: 'mutton donne biryani juicy bone-in native spices ghee half full meat tender',
   },
   {
