@@ -143,7 +143,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
             );
           })()}
         </div>
-{/* Quality Seal Badge */}
+          {/* Quality Seal Badge */}
           <div className="mt-1.5 relative z-20 inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-[#f3b43f] animate-pulse">
             <span className="w-1.5 h-1.5 rounded-full bg-[#f3b43f] animate-pulse" />
             <span className="text-[10px] font-semibold tracking-wide text-black">
