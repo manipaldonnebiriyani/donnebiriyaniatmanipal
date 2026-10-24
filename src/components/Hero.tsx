@@ -142,7 +142,6 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
               />
             );
           })()}
-        </div>
           {/* Quality Seal Badge */}
           <div className="mt-1.5 relative z-20 inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-[#f3b43f] animate-pulse">
             <span className="w-1.5 h-1.5 rounded-full bg-[#f3b43f] animate-pulse" />
@@ -152,6 +151,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
           </div>
         </div>
       </div>
+    </div>
 
       {/* Floating Bottom Info Bar */}
       <div className="relative z-20 mt-12 border-t border-[#38312d] bg-[#211e1d]/95 backdrop-blur-sm">
