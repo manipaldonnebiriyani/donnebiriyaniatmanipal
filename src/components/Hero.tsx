@@ -90,7 +90,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreMenu }) => {
 
           {/* Subtitle */}
           <p className="text-base sm:text-lg text-[#ded8cb] leading-relaxed max-w-xl drop-shadow-sm mb-8">
-            Fragrant jeera samba rice, hand-ground green masala, and generous portions served in traditional areca-leaf donnes.
+            Fragrant jeera samba rice, hand-ground green masala, and generous portions served in traditional dried bananna-leaf donnes.
           </p>
 
           {/* Social Proof Tags */}
