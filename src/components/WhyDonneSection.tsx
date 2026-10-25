@@ -21,7 +21,7 @@ export const WhyDonneSection: React.FC<WhyDonneSectionProps> = ({ onBrowseMenu }
             A little cup. A lot of character.
           </h2>
           <p className="text-sm sm:text-base text-[#a9a193] leading-relaxed mb-6">
-            Unlike layered northern biryanis, Karnataka-style naati biriyani is a unified harmony of short-grain rice, fiery green chilli, pounded mint, and native spices. It is served in a natural areca-leaf donne that holds the steam — and the aroma — right till the last bite.
+            Unlike layered northern biryanis, Karnataka-style naati biriyani is a unified harmony of short-grain rice, fiery green chilli, pounded mint, and native spices. It is served in a natural bananna dried-leaf donne that holds the steam — and the aroma — right till the last bite.
           </p>
           <button
             onClick={onBrowseMenu}
