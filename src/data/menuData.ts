@@ -22,7 +22,7 @@ export const MENU_CATEGORIES: MenuCategory[] = [
     id: 'biriyani',
     title: 'Donne Biriyani Specials',
     description: 'Steaming hot rice, native green masala, and the unmistakable aroma of a fresh donne.',
-    tag: 'SIGNATURE DUM IN ARECA LEAF',
+    tag: 'SIGNATURE DUM IN BANANNA DRIED LEAF',
   },
   {
     id: 'starters',
