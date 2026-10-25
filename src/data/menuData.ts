@@ -193,7 +193,7 @@ export const RESTAURANT_INFO = {
   phone2Raw: '+919164181813',
   phone2Display: '9164181813',
   address: 'NH169A, next to Pavithra Building, Eshwar Nagar, Manipal, Karnataka 576104',
-  landmark: 'Opposite Pavithra Building in ALN Layout',
+  landmark: 'Beside Pavithra Building in ALN Layout',
   googleMapsUrl: 'https://www.google.com/maps/dir/?api=1&destination=Hotel+Manipal+Donne+Biriyani+NH169A+Eshwar+Nagar+Manipal+Karnataka',
   rating: '4.5',
   reviewCount: '248 reviews',
