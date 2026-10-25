@@ -65,7 +65,7 @@ export const WhyDonneSection: React.FC<WhyDonneSectionProps> = ({ onBrowseMenu }
               <Leaf className="w-5 h-5" />
             </div>
             <h3 className="text-lg font-serif font-bold text-white mb-2">
-              The areca-leaf donne
+              The bananna dried-leaf donne
             </h3>
             <p className="text-xs text-[#9d9486] leading-relaxed">
               A traditional leaf vessel that traps aromatic steam while you eat.
